@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:monospace ;
+
+}
+
+/* Start home task section */
+
+.home-task form{
+    background-color: #8dabaa;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+@media only screen and (max-width: 575px ){
+    .home-task form{
+    padding: 10px;
+
+    }
+}
+
+.home-task form .input{
+    width: 370px;
+    border: 3px #18848b solid;
+    border-radius: 10px;
+    color: #18848b;
+    padding: 6px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 575px ) {
+    .home-task form .input{
+        width: 200px;
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+
+.home-task form .input:focus{
+    outline: none;
+}
+
+.home-task form .add{
+    border: 3px #18848b solid;
+    border-radius: 10px;
+    color: #fff;
+    padding: 6px;
+    background-color: #18848b;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 575px ) {
+    .home-task form .add{
+        font-size: 16px;
+        padding: 4px;
+    }
+}
+
+.home-task form .add:focus{
+    border: 3px #fff solid;
+}
+
+.home-task form .add:hover{
+    border: 3px #fff solid;
+}
+/* --------------- */
+
+.home-task .tasks{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.home-task .tasks .task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    background-color: #8dabaa;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 575px ){
+    .home-task .tasks .task{
+    width: 300px;
+
+    }
+}
+
+
+.home-task .tasks .task p{
+    margin: 0;
+}
+
+.home-task .tasks .task button{
+    background-color: #d50606;
+    padding: 2px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+/* End home task section */
